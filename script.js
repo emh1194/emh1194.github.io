@@ -41,7 +41,7 @@ function endQuiz() {
         main.textContent = "Are you sure that's what you're looking for?";
         document.getElementById("catPic").style.display = "flex";
     } else {
-        main.textContent = "Sounds like you want Eric Hormuth for the job!";
+        main.innerHTML = "Sounds like you want <a href="erichormuth.com">Eric Hormuth</a> for the job!";
         document.getElementById("mePic").style.display = "flex";
         
     }
